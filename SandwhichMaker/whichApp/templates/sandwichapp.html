@@ -1,0 +1,23 @@
+<html>
+
+<body>
+<h1> Sandwhich Home  </h1>
+
+<h3> Ingredients</h3>
+
+<ul>
+{% for ingredient in ingredients %}
+<li>  
+<a href="/sandwich/ingredients//{{ingredient}}" > {{ingredient}}</a>
+</li>
+{%endfor%}
+</ul>
+
+
+<p> Here we will add some text! </p>
+
+</body>
+
+
+
+</html>
